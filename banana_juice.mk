@@ -14,7 +14,6 @@ $(call inherit-product, device/xiaomi/juice/device.mk)
 # Inherit some common BananaDroid stuff.
 $(call inherit-product, vendor/banana/config/common.mk)
 BANANA_BUILDTYPE := OFFICIAL
-
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
@@ -28,6 +27,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-#Fingerprint
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys"
-BUILD_DESCRIPTION := redfin-user 11 RQ3A.210905.001 7511028 release-keys
+# Fingerprint
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.211001.001/7641976:user/release-keys"
+BUILD_DESCRIPTION := redfin-user 11 RQ3A.211001.001 7641976 release-keys
