@@ -10,4 +10,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     dot_juice-user \
     dot_juice-userdebug \
-    adot_juice-eng
+    dot_juice-eng
